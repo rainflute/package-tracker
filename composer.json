@@ -1,0 +1,34 @@
+{
+  "name": "rainflute/package-tracker",
+  "description": "PHP library to track shipment",
+  "version": "0.0.0",
+  "license": "MIT",
+  "keywords": [
+    "Shipment",
+    "UPS",
+    "USPS",
+    "PHP",
+    "Package"
+  ],
+  "authors": [
+    {
+      "name": "Yuxiao (Shawn) Tan",
+      "email": "yuxiaota@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Rainflute\\PackageTracker\\": [
+        "src/",
+        "tests/"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6"
+  }
+}
